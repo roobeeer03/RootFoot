@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Root Foot</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-black">
+  <header class="bg-black text-white">
+    <div class="container mx-auto flex items-center justify-between h-16 px-4">
+      <img src="assets/logo.png" alt="Root Foot" class="h-10"/>
+      <nav class="space-x-6">
+        <a href="#restaurantes" class="hover:underline">Restaurantes</a>
+        <a href="#nosotros" class="hover:underline">Nosotros</a>
+        <a href="#contacto" class="hover:underline">Contacto</a>
+      </nav>
+      <div class="space-x-2">
+        <a href="login.html" class="inline-block py-2 px-4 border border-white rounded hover:bg-white hover:text-black transition">Logeate</a>
+        <a href="register.html" class="inline-block py-2 px-4 bg-yellow-400 text-black rounded hover:bg-yellow-500 transition">Regístrate</a>
+      </div>
+    </div>
+  </header>
+  <main class="text-center py-12 px-4">
+    <img src="assets/logo.png" alt="Root Foot" class="w-48 mx-auto mb-8"/>
+    <div class="inline-flex border border-gray-300 rounded overflow-hidden">
+      <input id="email-input" type="email" placeholder="you@example.com" class="px-4 py-2 outline-none w-64"/>
+      <button id="search-btn" class="px-4 py-2 bg-black text-white">buscar</button>
+    </div>
+    <section class="mt-12 flex flex-col md:flex-row justify-center gap-8">
+      <div class="max-w-sm text-left">
+        <h2 class="text-xl font-semibold mb-1">PROMOCIONES</h2>
+        <p class="text-gray-600 mb-4">Los mejores precios para esos días de gastar poco</p>
+        <img src="assets/restaurante1.jpeg" alt="Promociones" class="rounded-lg"/>
+      </div>
+      <div class="max-w-sm text-left">
+        <h2 class="text-xl font-semibold mb-1">RECOMENDACIONES</h2>
+        <p class="text-gray-600 mb-4">Una sección con nuestros mejores restaurantes disponibles</p>
+        <img src="assets/restaurante2.jpeg" alt="Recomendaciones" class="rounded-lg"/>
+      </div>
+    </section>
+  </main>
+  <footer class="bg-black text-white py-4">
+    <div class="container mx-auto flex items-center justify-between px-4">
+      <div class="flex space-x-4">
+        <a href="#"><img src="assets/twitter-svgrepo-com.svg" alt="X" class="h-6"/></a>
+        <a href="#"><img src="assets/instagram-svgrepo-com.svg" alt="Instagram" class="h-6"/></a>
+        <a href="#"><img src="assets/youtube-svgrepo-com.svg" alt="YouTube" class="h-6"/></a>
+        <a href="#"><img src="assets/LinkedIn_icon.svg" alt="LinkedIn" class="h-6"/></a>
+      </div>
+      <img src="assets/logo.png" alt="Root Foot" class="h-8"/>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
